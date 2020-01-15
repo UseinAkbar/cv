@@ -1,0 +1,287 @@
+body {
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 20px
+}
+
+p {
+  color: #40514e;
+}
+
+.top {
+  background-color:  #e4f9ff;
+  position: relative;
+  padding-top: 80px;
+  font-family: helvetica, sans-serif;
+}
+
+span {text-decoration: underline;}
+
+.top h1, .top h2 {
+  color: #66bfbf
+}
+
+.top h1 {
+  font-size: 562.5%;
+  margin: 70px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-weight: bolder;
+  line-height: 150px;
+}
+
+.top h2 {
+    font-size: 1.3rem;
+    font-family: 'Merriweather', sans-serif;
+    font-weight: normal;
+
+}
+
+.skills {
+  padding-top: 50px
+}
+
+.skills h2, .profile h2, .contact-me h2  {
+  font-size: 2.2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.skills h3 {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.mountain{
+  position: relative;
+  top: 3px;
+  bottom: 10px;
+}
+
+.top-cloud{
+  position: absolute;
+  left: 88%;
+  animation: geser1 15.5s linear infinite alternate forwards;
+}
+
+.top2-cloud {
+  position: absolute;
+  right: 0px;
+  animation: geser2 18.5s linear infinite alternate forwards;
+
+}
+
+.side-cloud {
+  position: absolute;
+  right: 530px;
+  top: 415px;
+}
+
+.side2-cloud {
+  position: absolute;
+  bottom: 320px;
+  left: 0px;
+  animation: geser3 20.5s linear infinite alternate forwards;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 88%;
+  animation: geser4 17.5s linear infinite alternate forwards;
+
+}
+
+.profile, .skills, .contact-me {
+  font-family: 'Merriweather', sans-serif;
+}
+
+.middle-container {
+  background: linear-gradient(to bottom , #f7f7f7 5%, white 60%)
+}
+
+.middle-container h2 {
+  color: #66bfbf;
+}
+
+.middle-container .skills, .contact-me {
+  line-height: 28px
+}
+
+.profile {
+  margin-top: 0px;
+  margin-bottom: 60px;
+}
+
+.profile h2 {
+  margin-top: 20px
+}
+
+.profile p {
+  padding-top: 30px;
+  color:
+}
+
+.profile img {
+  padding-top: 50px;
+  border-radius: 50%;
+  width: 200px
+}
+
+.skills img {
+  width: 25%;
+}
+
+.programming {
+  float: left;
+  padding-right: 30px
+}
+
+.sport {
+  float: right;
+  padding-left: 30px
+}
+
+
+.skills h3 {
+  color: #11999e;
+}
+
+.skill-row1, .skill-row2 {
+  width: 50%;
+  margin: 120px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+
+.contact-me {
+  line-height: 3.5;
+}
+
+
+
+.contact-me h2 {
+  color: #66bfbf;
+  margin-top: 10px
+}
+
+.contact-me h3 {
+  color: #11999e;
+  font-weight: bold;
+  padding-top: 10px
+}
+
+.bottom-container {
+  padding-top: 60px;
+  background-color: #66bfbf;
+  padding-bottom: 20px;
+  font-family: 'Merriweather', sans-serif;
+}
+
+.bottom-container a {
+  color: #11999e;
+  text-decoration: none;
+  padding-right: 26px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: .5s
+}
+
+.bottom-container a:hover {
+  text-shadow: 0px 0px 8px white;
+}
+
+.bottom-container a:active {
+  color: #eaf6f6;
+}
+
+.bottom-container p {
+  padding-top: 30px;
+  margin-bottom: 30px;
+  color: #eaf6f6;
+  font-size: .75rem
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #66bfbf;
+  border-width: medium;
+  width: 3%;
+  margin: 100px auto;
+}
+
+.contact-me span {
+  font-style: italic;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+@keyframes geser1 {
+  0% {
+    left: 0px;
+  }
+  100% {
+    left: 88%
+  }
+}
+
+@keyframes geser2 {
+  0% {
+    right: 0px;
+  }
+  100% {
+    right: 88%;
+  }
+}
+
+@keyframes geser3 {
+  0% {
+    bottom: 320px;
+    left: 0px;
+  }
+  100% {
+    bottom: 320px;
+    left: 88%;
+  }
+}
+
+@keyframes geser4 {
+  0% {
+    left: 0px;
+  }
+  100% {
+    left: 88%;
+  }
+}
+
+
+
+.myButton {
+	background:linear-gradient(to bottom, #3de3ca 5%, #2bc4ad 100%);
+	background-color:#3de3ca;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+  line-height: 30px;
+  height: 30px;
+  width: 140px;
+	font-family: 'Montserrat', sans-serif;
+	font-size:16px;
+  font-weight: bold;
+	padding:2px;
+	text-decoration:none;
+  margin-bottom: 90px;
+  transition: .2s;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #2bc4ad 5%, #3de3ca 100%);
+	background-color:#2bc4ad;
+  box-shadow: 0px 0px 2px .5px grey;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+.clear {clear: both;}
